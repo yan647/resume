@@ -82,3 +82,20 @@ section{
  	vertical-align:middle;
  	margin-right: 5px;
  }
+
+.section_title{
+	text-align: center;
+	background-color: #0070C0;
+	color:white;
+	margin-bottom: 5px;
+	padding: 5px 0;
+}
+li{
+	list-style: none;
+	margin-left: 35px;
+}
+.objective{
+	text-align: center;
+	margin: 5px 0;
+}
+
