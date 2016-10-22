@@ -3,6 +3,9 @@
 	padding: 0;
 	font-family: '微软雅黑';
 }
+p{
+	font-size: 16px;
+}
 a{
 	text-decoration: none;
 }
@@ -16,12 +19,35 @@ body{
 	background-color: #eee;
 }
 button{
-	/* float:right; 
+	/* 
 	position: relative;
 	bottom:20px;*/
 	margin:5px 15px;
+	/* float:right;  */
 }
-.clearfix{
+.experience_circle{
+	width: 20px;
+    height: 20px;
+    background: #7DB9DE;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border:3px solid #ddd;
+}
+.experience_line{
+	width: 2px;
+	height: 115px;
+	background-color: #ddd;
+	margin-left: 12px;
+}
+.experience_middle{
+	float: left;
+	margin: 0 10px;
+}
+.experience_time{
+	float: left;
+}
+.clearfex{
 	content: '';
 	display: block;
 	clear: both;
@@ -32,24 +58,122 @@ button{
 	width:950px;
 	padding: 25px;
 }
+.education_line{
+	float: left;
+	background-color: #7DB9DE;
+	width: 2px;
+	height: 175px;
+}
+.education,.personalInfo_all,.honor,.practice_all{
+	background-color: white;
+	border-radius: 5px ;
+	box-shadow: 3px 3px 9px  #ccc;
+	padding:5px;
+}
+.education img{
+	float:left;
+	width:150px;
+	height: 150px;
+	margin:10px 73px 10px 0;
+}
+.education_item{
+	width: 140px;
+	float: left;
+	margin:50px 25px 40px 55px;
+	text-align: center;
+}
 .evaluation{
-	/* margin: 0 0 50px 25px; */
-	margin:10px auto;
+	margin: 10px auto;
 	text-align: center;
+
 }
-.evaluation li{
-	list-style: square;	
+/* .evaluation_all{
+	position: relative;
+	bottom:725px;
+} */
+.experience{
+	/* position: relative;
+	bottom:725px; */
+	background-image: url(../img/experience.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 580px;
+	width: 100%;
 }
-.education_row{
-	display: table-row;
-	width: 100px;
+.experience_img{
 	text-align: center;
+	margin-top: 60px;
 }
-.education_cell{
-	display: table-cell;
-	width: 235px;
+/* .experience_line{
+	background-color: #7DB9DE;
+	width: 8px;
+	height: 500px;
+	margin:0 auto;
 	text-align: center;
-	padding:2px 0;
+	position: relative;
+	bottom:30px;
+} */
+.experience_line_left1{
+	position: relative;
+	left: 370px;
+	bottom:500px;
+}
+.experience_line_left2{
+	position: relative;
+	left: 370px;
+	bottom:410px;
+}
+.experience_vertical{
+	background-color: #7DB9DE;
+	width: 2px;
+	height: 150px;
+}
+.experience_slash{
+	background-color: #7DB9DE;
+	width: 2px;
+	height: 150px;
+	transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+	-webkit-transform:rotate(135deg);
+	-ms-transform:rotate(135deg);
+	position: absolute;
+	top:50px;
+	left:52px;
+} 
+.experience_line_right1{
+	position: relative;
+	left: 470px;
+	bottom:1020px;
+}
+.experience_line_right2{
+	position: relative;
+	left: 470px;
+	bottom:770px;
+}
+.experience_vertical_right{
+	background-color: #7DB9DE;
+	width: 2px;
+	height: 150px;
+	position: absolute;
+	top:70px;
+	left:110px;
+}
+.experience_slash_right{
+	background-color: #7DB9DE;
+	width: 2px;
+	height: 150px;
+	transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+	-webkit-transform:rotate(135deg);
+	-ms-transform:rotate(135deg);
+	position: absolute;
+	top:23px;
+	left:58px;
+} 
+h2{
+	margin-bottom: 5px;
 }
 .honor{
 	width: 100%;
@@ -62,6 +186,7 @@ button{
 header{
 	margin:10px auto;
 	text-align:center;
+	background-color: white;
 }
 /* .left_content{
 	display: table-cell;
@@ -80,22 +205,75 @@ li{
 	text-align: center;
 	margin: 5px 0 25px 0;
 }
-.practice,.project{
-	margin-bottom: 20px;
+.practice_img{
+	position: relative;
+	bottom: 10px;
 }
-.practice_title,.project_title{
-	display: flex;
-	justify-content: space-between;
+.pre { 
+width: 80px; 
+height: 80px; 
+margin:0 auto;
+text-align: center;
+} 
+.pre1 { 
+border-width: 40px; 
+/* border-color: transparent #F30 transparent transparent;  */
+border-color: transparent  transparent #7DB9DE transparent; 
+} 
+.pre2 { 
+border-width: 40px; 
+/* border-color: transparent #FFF transparent  transparent; */ 
+border-color: transparent transparent #FFF transparent; 
+position: relative; 
+top: -70px; 
+/* left: 15px;  */
+}
+.pre1, .pre2 { 
+/*****设置border-style:dashed;使ie6支持border透明*****/ 
+border-style: dashed solid dashed dashed; 
+/*****设置容器宽高为0*****/ 
+width: 0; 
+height: 0; 
+/*****去掉ie6下默认高度，设置以下属性*****/ 
+line-height: 0; 
+font-size: 0; 
+overflow: hidden; 
+} 
+.personalInfo_line{
+	float: left;
 	background-color: #7DB9DE;
-	font-weight: bold;
-	margin-top:5px;
+	width: 2px;
+	height: 80px;
 }
+/* .practice{
+	margin-bottom: 115px; 
+	width: 310px;
+}
+.project{
+margin-bottom: 115px; 
+	position: relative;
+	bottom: 525px;
+	left: 640px;
+	width: 310px;
+} */
+.project_title{
+	font-weight: bold;
+}
+.practice_title{
+	/* display: flex;
+	justify-content: space-between;
+	background-color: #7DB9DE; */
+	font-weight: bold;
+	/* margin-top:5px; */
+	/* text-align: right; */
+} 
+
 .practice_content{
 	margin:5px 0 0 17px;
 }
 
 .project_content{
-	margin:5px 0 0 17px;
+	margin-top:5px;
 }
 p img{
  	width:20px;
@@ -103,16 +281,18 @@ p img{
 }
 .personalInfo{
 	list-style: none;
-	margin-left: 180px;
+	margin: 5px 150px 5px 103px;
 	float: left;
+	
 }
+
 .resume{
 	margin:0 auto;
 	width:1000px;
 	height: 100%;
-	background-color: white;
+	/* background-color: white; */
 	overflow: auto;
-	box-shadow: 3px 3px 9px  #ccc;
+	/* box-shadow: 3px 3px 9px  #ccc; */
 }
 /* .right_content{
 	display: table-cell;
@@ -120,7 +300,7 @@ p img{
 	padding: 10px;
 } */
 section{
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 .selfEvaluation{
@@ -141,6 +321,8 @@ section{
 	padding: 5px 0;
 }
 
-
+.time{
+	margin:0 0 120px 10px;
+}
 
 
