@@ -80,7 +80,7 @@ button{
 	width: 140px;
 	float: left;
 	margin:50px 25px 40px 55px;
-	text-align: center;
+	/* text-align: center; */
 }
 .evaluation{
 	margin: 10px auto;
@@ -178,7 +178,8 @@ h2{
 .honor{
 	width: 100%;
 	display: table;
-	text-align: center;
+	margin-left: 45px;
+	/* text-align: center; */
 }
 .honor_row{
 	display: table-row;	
