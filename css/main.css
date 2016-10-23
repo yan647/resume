@@ -64,12 +64,12 @@ button{
 	width: 2px;
 	height: 175px;
 }
-.education,.personalInfo_all,.honor,.practice_all{
+/* .education,.personalInfo_all,.honor,.practice_all{
 	background-color: white;
 	border-radius: 5px ;
 	box-shadow: 3px 3px 9px  #ccc;
 	padding:5px;
-}
+} */
 .education img{
 	float:left;
 	width:150px;
@@ -290,9 +290,9 @@ p img{
 	margin:0 auto;
 	width:1000px;
 	height: 100%;
-	/* background-color: white; */
+	background-color: white; 
 	overflow: auto;
-	/* box-shadow: 3px 3px 9px  #ccc; */
+	box-shadow: 3px 3px 9px  #ccc;
 }
 /* .right_content{
 	display: table-cell;
