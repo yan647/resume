@@ -12,6 +12,9 @@ a{
 a:link{
 	color:black;
 }
+a img{
+	margin-top:5px;
+}
 a:visited{
 	color:black;
 }
@@ -37,6 +40,12 @@ button{
 .experience_line{
 	width: 2px;
 	height: 115px;
+	background-color: #ddd;
+	margin-left: 12px;
+}
+.experience_line1{
+	width: 2px;
+	height: 105px;
 	background-color: #ddd;
 	margin-left: 12px;
 }
@@ -176,7 +185,7 @@ h2{
 	margin-bottom: 5px;
 }
 .honor{
-	width: 100%;
+	/* width: 100%; */
 	display: table;
 	margin-left: 45px;
 	/* text-align: center; */
@@ -268,7 +277,9 @@ margin-bottom: 115px;
 	/* margin-top:5px; */
 	/* text-align: right; */
 } 
-
+/* .practice,.project{
+	float: left;
+} */
 .practice_content{
 	margin:5px 0 0 17px;
 }
@@ -286,7 +297,6 @@ p img{
 	float: left;
 	
 }
-
 .resume{
 	margin:0 auto;
 	width:1000px;
