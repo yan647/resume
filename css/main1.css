@@ -86,13 +86,10 @@ button{
 	margin:10px 73px 10px 0;
 }
 .education_item{
-	margin-left: 45px;
-}
-.education_item span{
-	/* width: 140px;
-	float: left; */
-	margin-right: 30px;
-	/* text-align: center; */ 
+	width: 140px;
+	float: left;
+	margin:50px 25px 40px 55px;
+	/* text-align: center; */
 }
 .evaluation{
 	margin: 10px auto;
@@ -197,7 +194,7 @@ h2{
 	display: table-row;	
 }
 header{
-	margin:15px auto 0 auto;
+	margin:10px auto;
 	text-align:center;
 	background-color: white;
 }
@@ -213,7 +210,6 @@ li{
 	background-color: #7DB9DE;
 	height: 5px;
 	width: 100%;
-	margin:20px 0;
 }
 .objective{
 	text-align: center;
@@ -315,7 +311,7 @@ p img{
 	padding: 10px;
 } */
 section{
-	margin-bottom: 30px;
+	margin-top: 10px;
 }
 
 .selfEvaluation{
