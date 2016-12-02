@@ -22,11 +22,35 @@ body{
 	background-color: #eee;
 }
 button{
-	/* 
-	position: relative;
-	bottom:20px;*/
 	margin:5px 15px;
-	/* float:right;  */
+}
+.circle{
+	width:10px;
+	height:10px;
+	border:4px solid white;
+	border-radius: 50%;
+	float: left;
+	margin-right: 4px;
+	margin-top: 3px;
+}
+.clearfex{
+	content: '';
+	display: block;
+	clear: both;
+
+}
+.content{
+	margin:0 auto;
+	width:950px;
+	padding: 25px;
+}
+.container{
+	float: left;
+	width:1000px;
+	height: 100%;
+	background-color: white; 
+	overflow: auto;
+	box-shadow: 3px 3px 9px  #ccc;
 }
 .experience_circle{
 	width: 20px;
@@ -56,29 +80,12 @@ button{
 .experience_time{
 	float: left;
 }
-.clearfex{
-	content: '';
-	display: block;
-	clear: both;
-
-}
-.content{
-	margin:0 auto;
-	width:950px;
-	padding: 25px;
-}
 .education_line{
 	float: left;
 	background-color: #7DB9DE;
 	width: 2px;
 	height: 175px;
 }
-/* .education,.personalInfo_all,.honor,.practice_all{
-	background-color: white;
-	border-radius: 5px ;
-	box-shadow: 3px 3px 9px  #ccc;
-	padding:5px;
-} */
 .education img{
 	float:left;
 	width:150px;
@@ -89,23 +96,14 @@ button{
 	margin-left: 45px;
 }
 .education_item span{
-	/* width: 140px;
-	float: left; */
-	margin-right: 30px;
-	/* text-align: center; */ 
+	margin-right: 30px; 
 }
 .evaluation{
 	margin: 10px auto;
 	text-align: center;
 
 }
-/* .evaluation_all{
-	position: relative;
-	bottom:725px;
-} */
 .experience{
-	/* position: relative;
-	bottom:725px; */
 	background-image: url(../img/experience.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -116,15 +114,6 @@ button{
 	text-align: center;
 	margin-top: 60px;
 }
-/* .experience_line{
-	background-color: #7DB9DE;
-	width: 8px;
-	height: 500px;
-	margin:0 auto;
-	text-align: center;
-	position: relative;
-	bottom:30px;
-} */
 .experience_line_left1{
 	position: relative;
 	left: 370px;
@@ -188,10 +177,8 @@ h2{
 	margin-bottom: 5px;
 }
 .honor{
-	/* width: 100%; */
 	display: table;
 	margin-left: 45px;
-	/* text-align: center; */
 }
 .honor_row{
 	display: table-row;	
@@ -201,11 +188,6 @@ header{
 	text-align:center;
 	background-color: white;
 }
-/* .left_content{
-	display: table-cell;
-	width:700px;
-	padding: 10px;
-} */
 li{
 	margin-bottom: 5px;
 }
@@ -214,6 +196,17 @@ li{
 	height: 5px;
 	width: 100%;
 	margin:20px 0;
+}
+nav{
+	position: fixed;
+	top:40%;
+	margin-left:1035px;
+}
+nav a{
+	display: none;
+} 
+.nav_item{
+	padding-bottom: 50px;
 }
 .objective{
 	text-align: center;
@@ -231,16 +224,13 @@ text-align: center;
 } 
 .pre1 { 
 border-width: 40px; 
-/* border-color: transparent #F30 transparent transparent;  */
 border-color: transparent  transparent #7DB9DE transparent; 
 } 
 .pre2 { 
 border-width: 40px; 
-/* border-color: transparent #FFF transparent  transparent; */ 
 border-color: transparent transparent #FFF transparent; 
 position: relative; 
 top: -70px; 
-/* left: 15px;  */
 }
 .pre1, .pre2 { 
 /*****设置border-style:dashed;使ie6支持border透明*****/ 
@@ -259,31 +249,12 @@ overflow: hidden;
 	width: 2px;
 	height: 80px;
 }
-/* .practice{
-	margin-bottom: 115px; 
-	width: 310px;
-}
-.project{
-margin-bottom: 115px; 
-	position: relative;
-	bottom: 525px;
-	left: 640px;
-	width: 310px;
-} */
 .project_title{
 	font-weight: bold;
 }
 .practice_title{
-	/* display: flex;
-	justify-content: space-between;
-	background-color: #7DB9DE; */
 	font-weight: bold;
-	/* margin-top:5px; */
-	/* text-align: right; */
 } 
-/* .practice,.project{
-	float: left;
-} */
 .practice_content{
 	margin:5px 0 0 17px;
 }
@@ -302,18 +273,9 @@ p img{
 	
 }
 .resume{
-	margin:0 auto;
-	width:1000px;
-	height: 100%;
-	background-color: white; 
-	overflow: auto;
-	box-shadow: 3px 3px 9px  #ccc;
+margin:0 auto;
+width:1050px;
 }
-/* .right_content{
-	display: table-cell;
-	width:300px;
-	padding: 10px;
-} */
 section{
 	margin-bottom: 30px;
 }
@@ -327,7 +289,6 @@ section{
  	vertical-align:middle;
  	margin-right: 5px;
  }
-
 .section_title{
 	text-align: center;
 	background-color: #0070C0;
@@ -335,7 +296,6 @@ section{
 	margin: 10px 0;
 	padding: 5px 0;
 }
-
 .time{
 	margin:0 0 120px 10px;
 }
